@@ -1,7 +1,7 @@
 
 
 
-The **eShopOnWeb** sample is related to the [eShopOnContainers](https://github.com/dotnet/eShopOnContainers) sample application which, in that case, focuses on a microservices/containers-based application architecture. However, **eShopOnWeb** is much simpler in regards to its current functionality and focuses on traditional Web Application Development with a single deployment.
+The **eShopOnWeb** sample is related to the [eShopOnContainers](https://github.com/dotnet/eShopOnContainers) sample application which focuses on a microservices/containers-based application architecture. However, **eShopOnWeb** is much simpler in regards to its current functionality and focuses on traditional Web Application Development with a single deployment.
 
 > ### VERSIONS
 > #### The `main` branch is currently running ASP.NET Core 8.0.
@@ -119,15 +119,7 @@ You can also run the samples in Docker (see below).
 
     dotnet ef migrations add InitialIdentityModel --context appidentitydbcontext -p ../Infrastructure/Infrastructure.csproj -s Web.csproj -o Identity/Migrations
     ```
-
-## Running the sample in the dev container
-
-This project includes a `.devcontainer` folder with a [dev container configuration](https://containers.dev/), which lets you use a container as a full-featured dev environment.
-
-You can use the dev container to build and run the app without needing to install any of its tools locally! You can work in GitHub Codespaces or the VS Code Dev Containers extension.
-
-Learn more about using the dev container in its [readme](/.devcontainer/devcontainerreadme.md).
-
+ 
 ## Running the sample using Docker
 
 You can run the Web sample by running these commands from the root folder (where the .sln file is located):
@@ -141,3 +133,10 @@ You should be able to make requests to localhost:5106 for the Web project, and l
 
 You can also run the applications by using the instructions located in their `Dockerfile` file in the root of each project. Again, run these commands from the root of the solution (where the .sln file is located).
 
+---
+
+## 👨‍💻 Author
+
+**Karthik N U**
+
+---
